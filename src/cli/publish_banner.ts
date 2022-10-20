@@ -26,7 +26,7 @@ More information at ${formattedMoreInfoUrl}
 To disable this message, add this to your ${chalkInstance.bold(
   './cucumber.js'
 )}: 
-${chalkInstance.bold("module.exports = { default: '--publish-quiet' }")}`
+${chalkInstance.bold("module.exports = { default: { publishQuiet: true } }")}`
 
 const table = new Table({
   style: {
